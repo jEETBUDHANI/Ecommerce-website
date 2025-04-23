@@ -13,6 +13,7 @@ const SearchBar = () => {
 
     // State to manage visibility of the search bar based on route
     const [visible, setVisible] = useState(false);
+    
 
     // Effect hook to toggle visibility based on the current path
     useEffect(() => {
@@ -38,7 +39,7 @@ const SearchBar = () => {
             </div>
             
             {/* Close button to hide search bar */}
-            <img onClick={() => setShowSearch(false)} className='inline w-3 cursor-pointer' src={assets.cross_icon} alt="close icon"/>
+            <img onClick={() => setShowSearch(false)} className='inline w-3 cursor-pointer pointer-events-auto' src={assets.cross_icon} alt="close icon"/>
         </div>
     ) : null; // Only render if showSearch and visible are true
 }

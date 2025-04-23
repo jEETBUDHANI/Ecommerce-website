@@ -1,7 +1,7 @@
 import React from 'react'; // Importing React for JSX functionality
 import Title from '../components/Title'; // Importing the Title component
 import NewsletterBox from '../components/NewsletterBox'; // Importing the NewsletterBox component
-
+import { assets } from '../assets/frontend_assets/assets';
 const Contect = () => {
   return (
     <div>
@@ -24,12 +24,12 @@ const Contect = () => {
           {/* Company Story */}
           <p className='font-semibold text-xl text-gray-600'>Our Story</p>
           <p className='text-gray-500'>
-            54709 Willms Station <br /> Suite 350, Washington, USA
+            Maa Barahi Vihar <br /> kamalwaganja /Haldwani
           </p>
           
           {/* Contact Information */}
           <p className='text-gray-500'>
-            Tel: (415) 555-0132 <br /> Email: sk0471011@gmail.com
+            Tel: (+91) 8126630823 <br /> Email: sk0471011@gmail.com
           </p>
           
           {/* Careers Section */}

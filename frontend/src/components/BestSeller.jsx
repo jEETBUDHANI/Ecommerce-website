@@ -18,7 +18,6 @@ const BestSeller = () => {
       setBestSeller(bestProducts.slice(0, 5)); // Get the first 5 bestseller products
     }
   }, [products]);
-
   if (bestSeller.length === 0) {
     return (
       <div className="my-10">

@@ -1,6 +1,6 @@
  Live Demo
 
-🔗 [Click here to view deployed project](https://your-friends-deployment-link.com)
+🔗 [Click here to view deployed project](https://foreverbuy.in)
 
 
 # Ecommerce-website
